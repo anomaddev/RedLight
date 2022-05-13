@@ -9,9 +9,6 @@
 
 #define RELAY_PIN D1
 
-#define TIME_HEADER  "T"   // Header tag for serial time sync message
-#define TIME_REQUEST  7    // ASCII bell character requests a time sync message 
-
 // Network SSID
 const char* ssid = "Starlink";
 const char* password = "HawaiiLite";
@@ -26,7 +23,6 @@ String currentDate;
 String hockeyApi = "https://v1.hockey.api-sports.io/games";
 String apiKey = "5111097bc93c2838ad5396df52b59707";
 const int httpsPort = 443;
-const char* fingerpr = "94 6E E6 45 83 A4 B7 7E CB 36 1B 0F B2 D8 84 38 03 B6 09 3A";
 
 String league = "57";
 String season = "2021";
